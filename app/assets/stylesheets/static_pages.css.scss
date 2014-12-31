@@ -1,0 +1,60 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url(http://fonts.googleapis.com/css?family=Michroma|Julius+Sans+One);
+
+body,
+html {
+  margin:0;
+  width:100%;
+}
+
+a,
+h2,
+input,
+button {
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+p {
+  font-family:sans-serif;
+}
+
+.container {
+  width:90%;
+  padding:20px 5% 0px 5%;
+}
+
+nav {
+  ul {
+    float:right;
+    li {
+      display:inline-block;
+      text-align:center;
+      width:100px;
+      margin:0px;
+      a {
+        text-decoration:none;
+      }
+    }
+  }
+}
+
+header {
+  float:left;
+  h1 {
+    font-family: 'Michroma', sans-serif;
+    font-size:5em;
+  }
+}
+
+main {
+  position:relative;
+  top:100px;
+  width:450px;
+  clear:both;
+  margin:auto;
+  text-align:center;
+}
+
